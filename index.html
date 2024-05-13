@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+<body>
+    <div id="main">
+        <div data-scroll data-scroll-speed="-5" id="page1">
+            <nav>
+                <img src="data:image/jpeg;base64,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" alt="">
+                <right-nav>
+                    <button>Book a Demo</button>
+                    <button><i class="ri-menu-line"></i></button>
+                </right-nav>
+            </nav>
+            <div id="bottom-page1">
+                <h1>Experience Real <br> Estate Agility</h1>
+                <div id="bottom-page1-inner">
+                    <h2>Create a Digital Twin Token (DTT®) of your existing building and release the potential of Web3.</h2>
+                    <button>Learn More</button>
+                </div>
+            </div>
+            <video autoplay loop muted src="https://thisismagma.com/wp-content/themes/magma/assets/home/hero/1.mp4?2"></video>
+        </div>
+        <div id="page2">
+            <h3>CERTIFY YOUR BUILDING AS A DIGITAL TWIN TOKEN (DTT®)</h3>
+            <h1>The Digital Twin Token is a unique digital asset backed by property data. Magma combines your building's components and systems essential information into a DTT®.</h1>
+        </div>
+        <div id="page3">
+            <canvas></canvas>
+        </div>
+        <div id="page4">
+            <h3>CONNECT THE BUILDING'S TWIN TO YOUR STAKEHOLDERS</h3>
+            <p>Users connect directly to the DTT® without any intermediaries. As Stakeholder, they have the power to upload and verify information that enriches the Digital Twin Token. A Stakeholder's ability to access validated-data to perform tasks depends on their specific role.</p>
+        </div>
+        <div id="page5">
+            <canvas></canvas>
+        </div>
+        <div id="page6">
+            <h3>INCREASE YOUR DIGITAL TWIN TOKEN'S VALUE (DTT®)</h3>
+            <h1>DTT® data increases the value of your digital asset by lowering operational costs, improving energy use, assisting commercialization, and boosting the liquidity of your building.
+            </h1>    
+        </div>
+        <div id="page7">
+            <div class="page7-cir">
+                <div class="page7-cir-in"></div>
+            </div>
+            <canvas></canvas>
+        </div>
+        <div id="vdopg">
+            <div class="pg-bott">
+                <h1>Magma DTT</h1>
+                <button>LEARN MORE</button>
+            </div>
+            <video autoplay loop muted src="https://thisismagma.com/wp-content/themes/magma/assets/home/glass/1.webm?2"></video>
+        </div>
+        <div id="page8">
+            <div id="heading">
+                <h1>What is Magma?</h1>
+            </div>
+            <div id="content">
+                <div id="imag"></div>
+                <div id="content1">
+                    <h2>Web3 platform</h2>
+                    <p>Magma is a Web3 platform for all real estate stakeholders, which provides users with the ability to manage interactions between physical and digital assets through unique, and collectively generated, 3D representations of their buildings.</p>
+                </div>
+                <div id="content2">
+                    <h2>The Digital Twin Token: The building's unique digital copy</h2>
+                    <p>Magma uses blockchain technology to record essential data, which enables transparent, traceable, and immutable streams of information to be readily accessible to its users. Magma smart contracts are built with this blockchain data to expedite tasks like requests for proposals, lease agreements, and services arrangements.</p>
+                </div>
+                <div id="content3">
+                    <h2>An Index of digitization</h2>
+                    <p>The Magma Index provides valuable insight for decision-making regarding data-sharing, service-creating, and operational/environmental expectations.</p>
+                </div>
+            </div>
+        </div>
+        <div id="page11">
+            <h1>Recent blog</h1>
+            <div class="blogs" id="blog1">
+                <div class="image" id="images">
+                    <img src="https://thisismagma.com/wp-content/uploads/2024/03/thisismagma.com-live-event-1-min-scaled.jpg" alt="">
+                </div>
+                <div id="blog1-inner">
+                <h3>MAR 13, 2024</h3>
+                <h4>Live event on Real-World Assets tokenization: March 21st at 10am EST/4pm CET</h4>
+            </div>
+            </div>
+            <div class="blogs" id="blog2">
+                <div class="image" id="images">
+                    <img src="https://thisismagma.com/wp-content/uploads/2024/03/thisismagma.com-magma-x-stegx-partnership-announcement-magma-real-estate-announcement-cover-new.png" alt="">
+                </div>
+                <div id="blog2-inner">
+                <h3>ANNOUNCEMENTS / MAR 08, 2024</h3>
+                <h4>Magma x StegX Partnership announcement!</h4>
+            </div>
+            </div>
+            <div class="blogs" id="blog3">
+                <div class="image" id="images">
+                    <img src="https://thisismagma.com/wp-content/uploads/2024/02/thisismagma.com-magma-obtient-le-label-finance-innovation-000.jpeg" alt="">
+                </div>
+                <div id="blog3-inner">
+                <h3>ANNOUNCEMENTS / FEB 26, 2024</h3>
+                <h4>Magma obtient le label Finance Innovation !</h4>
+            </div>
+            </div>
+            <button>View All
+                <i class="ri-arrow-right-line"></i>
+            </button>
+        </div>
+        <div id="page12">
+            <div id="featured">
+                <h1>Featured In</h1>
+                <p>Thrilled to have been featured in several prominent media </br>outlets and leading professionals across the world’s best real </br> and web3 institutions. </p>
+            </div>
+        </div>
+        <div id="page13">
+            <div id="page13-inner">
+                <h1>Become an </br>
+                    early adopter</h1>
+                    <button>BOOK A DEMO</button>
+            </div>
+        </div>
+        <div id="page14">
+            <div class="page14-inner">
+                <div id="effect"></div>
+                <h1>Twitter</h1>
+                <i class="ri-arrow-right-up-line"></i>
+        </div>
+            <div class="page14-inner">
+                <div id="effect"></div>
+                <h1>LinkedIn</h1>
+                <i class="ri-arrow-right-up-line"></i>
+            </div>
+            <div class="page14-inner">
+                <div id="effect"></div>
+                <h1>Instagram</h1>
+                <i class="ri-arrow-right-up-line"></i>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
